@@ -1,0 +1,15 @@
+<launch>
+    <node pkg="get_parameters" type="example_getting_private_parameters.py" name="node_1_pub_uint16" output="screen">
+    <param name="publisher_data_type" value="uint16"/>
+    <param name="wait_duration" value="0.5"/>
+    <param name="publisher_data_int" type="double" value="1011"/>
+  </node>
+
+  <node pkg="get_parameters" type="getParameters" name="node_2_pub_string" output="screen">
+    <param name="publisher_data_type" value="string"/>
+    <param name="wait_duration" value="2.0"/>
+    <param name="param_name_b" type="int" value="111"/>
+
+  </node>
+</launch>
+

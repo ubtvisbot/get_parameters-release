@@ -1,0 +1,20 @@
+my_param: hello there 1
+node_1_pub_uint16: {publisher_data_int: 1011.0, publisher_data_type: uint16, wait_duration: 0.5}
+node_2_pub_string: {param_name_b: 111, publisher_data_type: string, wait_duration: 2.0}
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_ubuntu__33575: 'http://ubuntu:33575/', host_ubuntu__35555: 'http://ubuntu:35555/',
+    host_ubuntu__36155: 'http://ubuntu:36155/', host_ubuntu__36237: 'http://ubuntu:36237/',
+    host_ubuntu__36291: 'http://ubuntu:36291/', host_ubuntu__38177: 'http://ubuntu:38177/',
+    host_ubuntu__38501: 'http://ubuntu:38501/', host_ubuntu__38561: 'http://ubuntu:38561/',
+    host_ubuntu__38579: 'http://ubuntu:38579/', host_ubuntu__38883: 'http://ubuntu:38883/',
+    host_ubuntu__40989: 'http://ubuntu:40989/', host_ubuntu__42471: 'http://ubuntu:42471/',
+    host_ubuntu__42847: 'http://ubuntu:42847/', host_ubuntu__43609: 'http://ubuntu:43609/',
+    host_ubuntu__44769: 'http://ubuntu:44769/', host_ubuntu__44823: 'http://ubuntu:44823/',
+    host_ubuntu__45175: 'http://ubuntu:45175/', host_ubuntu__45207: 'http://ubuntu:45207/'}
+rosversion: '1.14.3
+
+  '
+run_id: d4be7904-f95a-11e9-b4f1-000c2905d9b9

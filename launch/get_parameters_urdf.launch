@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="robot_description" textfile="$(find get_parameters)/urdf/example.urdf"/>
+  <node pkg="joint_state_publisher" type="joint_state_publisher" name="multi_joint_state_publisher">
+    <param name="rate" value="10"/>
+    <param name="use_gui" value="true" />
+  </node>
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+  <node pkg="rviz" type="rviz" name="rviz" />
+</launch>

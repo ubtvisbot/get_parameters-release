@@ -1,0 +1,4 @@
+string messageToPrint
+float32 someFloatValue
+---
+string messageBackToClient

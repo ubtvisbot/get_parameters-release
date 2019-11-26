@@ -1,0 +1,6 @@
+<launch>
+  <param name="publisher_data_type" value="uint16"/>
+  <param name="wait_duration" value="0.5"/>
+
+</launch>
+
