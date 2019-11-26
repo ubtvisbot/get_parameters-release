@@ -1,0 +1,12 @@
+Source: ros-melodic-get-parameters
+Section: misc
+Priority: optional
+Maintainer: qlf <qlf246801@126.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-get-parameters
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-std-msgs
+Description: The get_parameters package

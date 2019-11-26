@@ -1,0 +1,26 @@
+ros-melodic-get-parameters (0.0.3-1stretch) stretch; urgency=high
+
+  * docs: modify email
+  * 0.0.2
+  * docs: modify CHANGLOG
+  * Contributors: lifu.qin
+
+ -- qlf <qlf246801@126.com>  Mon, 25 Nov 2019 16:00:00 -0000
+
+ros-melodic-get-parameters (0.0.2-1stretch) stretch; urgency=high
+
+  * docs: modify CMakeList nad package.xml
+  * docs: modify CHANGLOG
+  * Contributors: lifu.qin
+
+ -- qlf <qlf246801@126.com>  Mon, 25 Nov 2019 16:00:00 -0000
+
+ros-melodic-get-parameters (0.0.1-1stretch) stretch; urgency=high
+
+  * docs: add version
+  * creat new project get_parameters
+  * Contributors: lifu.qin
+
+ -- qlf <qlf246801@126.com>  Thu, 21 Nov 2019 16:00:00 -0000
+
+
